@@ -13,3 +13,8 @@
 		scrollTop: targetOffset
 		}, 500);
 });*/
+
+$('#job-titles div').on('click', function(){
+	$('.job').removeClass('purple-bg')
+	$(this).addClass('purple-bg')
+})

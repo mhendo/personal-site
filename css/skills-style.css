@@ -57,7 +57,7 @@ nav li span{
 	font-style: italic;
 }
 
-div .icons{
+.icons{
 	display: inline-block;
 	margin: 20px 70px 20px 70px;
 	border: 2px solid black;
@@ -74,10 +74,26 @@ h3{
 	text-align: center;
 }
 
-.content{
-	position: relative;
+.content1{
+	position: absolute;
+	top: 350px;
 	z-index: 10;
 	width: 170px;
-	margin: 0px 0px 15px 15px;
+	margin: 0px 0px 0px 15px;
+	text-align: center;
 	display: none;
+}
+
+.content2{
+	position: absolute;
+	top: 450px;
+	z-index: 10;
+	width: 170px;
+	margin: 0px 0px 0px 15px;
+	text-align: center;
+	display: none;
+}
+
+.faded{
+	opacity: 0.1;
 }
