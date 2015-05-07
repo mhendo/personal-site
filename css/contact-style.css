@@ -1,0 +1,131 @@
+.wrapper{
+	width: 1050px;
+	margin: auto;
+	padding: 15px;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0px 15px 15px #888888;
+}
+
+nav{
+	box-shadow: 0px 10px 5px #888888;
+	margin-bottom: 20px;
+	border-bottom: solid black 2px;
+	border-radius: 5px;
+	clear: both;
+	height: 130px;
+}
+
+nav img{
+	height: 120px;
+	width: 100px;
+	float: left;
+	display: inline-block;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 90%;
+}
+
+nav li{
+	width: 13%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Oswald', sans-serif; font-weight: 400;
+	font-size: 24px;
+}
+
+nav a:link{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+nav li span{
+	font-style: italic;
+}
+
+h1{
+	font-family: 'Titillium Web', sans-serif; font-weight: 700;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+article{
+	float: left;
+	width: 55%;
+	display: inline-block;
+}
+
+p{
+	font-family: 'Titillium Web', sans-serif; font-weight: 400;
+	margin-right: 20px;
+	margin-left: 40px;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+}
+
+form p, input, option, textarea{
+	font-family: 'Titillium Web', sans-serif; font-weight: 400;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+	letter-spacing: 0.3px;
+}
+
+h2{
+	font-family: 'Titillium Web', sans-serif; font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 10px;
+	text-align: center;
+	clear: both;
+}
+
+form{
+	margin: 30px 0px 10px 0px;
+	float: right;
+	width: 40%;
+	border: 2px black solid;
+	border-radius: 20px;
+	padding-bottom: 10px;
+	background-color: rgba(55, 16, 122, 0.5);
+}
+
+#contact-intro{
+	font-size: 30px;
+}
+
+#email{
+	margin-left: 0px;
+}
+
+#submit{
+	margin: 5px 0px 0px 40px;
+	width: 80%;
+}
+
+.social{
+	display: inline-block;
+	margin: 0px 45px 0px 45px;
+}
+
+.social img{
+	width: 250px;
+	height: 250px;
+}
+
+a img:hover{
+	opacity: 0.6;
+}

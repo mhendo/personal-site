@@ -1,0 +1,165 @@
+.wrapper{
+	width: 1050px;
+	margin: auto;
+	padding: 15px;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0px 15px 15px #888888;
+}
+
+nav{
+	box-shadow: 0px 10px 5px #888888;
+	margin-bottom: 20px;
+	border-bottom: solid black 2px;
+	border-radius: 5px;
+	clear: both;
+	height: 130px;
+}
+
+nav img{
+	height: 120px;
+	width: 100px;
+	float: left;
+	display: inline-block;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 90%;
+}
+
+nav li{
+	width: 13%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Oswald', sans-serif; font-weight: 400;
+	font-size: 24px;
+}
+
+nav a:link{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+nav li span{
+	font-style: italic;
+}
+
+article h1{
+	font-family: 'Titillium Web', sans-serif; font-weight: 700;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+article h2{
+	font-family: 'Titillium Web', sans-serif; font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+article h3{
+	font-family: 'Oswald', sans-serif; font-weight: 700;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+article h5{
+	font-family: 'Oswald', sans-serif; font-weight: 700;
+	font-size: 14px;
+}
+
+article p{
+	font-family: 'Titillium Web', sans-serif; font-weight: 400;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+}
+
+article li{
+	font-family: 'Oswald', sans-serif; font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+}
+
+div #resume{
+	float: left;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	margin: 20px;
+}
+
+article #education{
+	float: right;
+	clear: right;
+}
+
+#page-break{
+	border-bottom: 2px solid rgb(210, 210, 210);
+	width: 90%;
+	margin: auto;
+}
+
+.edu-col{
+	width: 30%;
+	display: inline-block;
+	margin-right: 80px;
+}
+
+#education p{
+	font-style: italic;
+}
+
+#experience{
+	height: 380px;
+	width: 95%;
+	border: 2px, black;
+}
+
+.scrollable{
+	height: 439px;
+	overflow-y: auto;
+}
+
+#job-titles{
+	float: left;
+	display: inline-block;
+	width: 35%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#responsibilities{
+	float: right;
+	display: inline-block;
+	width: 60%;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#responsibilities div{
+	border-bottom: 2px solid rgba(55, 16, 122, 0.5);
+	margin-bottom: 210px;
+}
+
+.purple-bg{
+	background-color: rgba(55, 16, 122, 0.5);
+	height: 115px;
+}
+
+
