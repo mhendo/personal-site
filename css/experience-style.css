@@ -1,5 +1,10 @@
+body{
+	height: 1010px;
+}
+
 .wrapper{
 	width: 1050px;
+	height: 100%;
 	margin: auto;
 	padding: 15px;
 	background-color: rgb(250, 250, 250);
@@ -160,6 +165,7 @@ article #education{
 .purple-bg{
 	background-color: rgba(55, 16, 122, 0.5);
 	height: 115px;
+	color: white;
 }
 
 

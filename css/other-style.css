@@ -61,16 +61,14 @@ nav li span{
 	display: inline-block;
 }
 
-h3, p{
-	display: inline-block;
-	float: right;
-}
-
 h3{
 	font-family: 'Oswald', sans-serif; font-weight: 700;
 	font-size: 20px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
+	float: right;
 }
 
 p{
@@ -80,13 +78,16 @@ p{
 	margin-top: 0px;
 	clear: right;
 	opacity: 0.4;
+	width: 100%;
+	text-align: center;
+	float: right;
 }
 
 #picture-set{
 	display: inline-block;
 	float: right;
 	clear: right;
-	width: 400px;
+	width: 50%;
 }
 
 #picture-set img{
@@ -100,7 +101,9 @@ p{
 	width: 200px;
 	height: 400px;
 }
-
+#picture-set-1{
+	margin-left: 100px;
+}
 #picture-set-2{
-	margin-left: 60px;
+	margin-left: 150px;
 }
