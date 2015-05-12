@@ -157,3 +157,40 @@ ul.favorited{
 .hidden{
 	display: none;
 }
+
+.sports-logo{
+	display: inline;
+	position: relative;
+}
+
+#mizzou-logo{
+	z-index: 10;
+	left: 20px;
+}
+
+#blues-logo{
+	right: 20px;
+}
+
+#cardinals-logo{
+	z-index: 10;
+	left: -120px;
+}
+
+#bulls-logo{
+	left: 720px;
+	top: -300px;
+}
+
+body{
+	height: 100%;
+}
+
+html{
+	height: 100%;
+}
+#map-canvas{
+	width: 945px;
+	height: 500px;
+	margin-left: 50px;
+}

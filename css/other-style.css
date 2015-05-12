@@ -57,69 +57,50 @@ nav li span{
 	font-style: italic;
 }
 
-.icons{
+#spotify{
 	display: inline-block;
-	margin: 20px 70px 20px 70px;
-	border: 2px solid black;
-	border-radius: 5px;
 }
 
-.icons img{
-	width: 200px;
-	height: 200px;
-	position: relative;
-}
-
-h3{
-	text-align: center;
-}
-
-.content1{
-	position: absolute;
-	top: 350px;
-	z-index: 10;
-	width: 170px;
-	margin: 0px 0px 0px 15px;
-	text-align: center;
-	display: none;
-}
-
-.content2{
-	position: absolute;
-	top: 650px;
-	z-index: 10;
-	width: 170px;
-	margin: 0px 0px 0px 15px;
-	text-align: center;
-	display: none;
-}
-
-.faded{
-	opacity: 0.1;
-}
-
-h1{
-	font-family: 'Titillium Web', sans-serif; font-weight: 700;
-	font-size: 42px;
-	margin-bottom: 10px;
+h3, p{
+	display: inline-block;
+	float: right;
 }
 
 h3{
 	font-family: 'Oswald', sans-serif; font-weight: 700;
 	font-size: 20px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 p{
 	font-family: 'Titillium Web', sans-serif; font-weight: 400;
-	margin-right: 10px;
-	margin-left: 10px;
 	font-size: 16px;
 	letter-spacing: 0.3px;
+	margin-top: 0px;
+	clear: right;
+	opacity: 0.4;
 }
 
-h3 p{
-	font-family: 'Titillium Web', sans-serif; font-weight: 400;
-	font-size: 16px;
-	letter-spacing: 0.3px;
+#picture-set{
+	display: inline-block;
+	float: right;
+	clear: right;
+	width: 400px;
+}
+
+#picture-set img{
+	height: 200px;
+	width: 100px;
+	transition: all 1s;
+}
+
+#picture-set img:hover{
+	transform: rotateZ(5deg);
+	width: 200px;
+	height: 400px;
+}
+
+#picture-set-2{
+	margin-left: 60px;
 }

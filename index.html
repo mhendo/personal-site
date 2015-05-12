@@ -59,9 +59,29 @@
 			</article>
 			<article id="map" class="content">
 				<h2>Where in the world have I been?</h2>
+    					</style>
+					    <script src="https://maps.googleapis.com/maps/api/js"></script>
+					    <script>
+					      function initialize() {
+					        var mapCanvas = document.getElementById('map-canvas');
+					        var mapOptions = {
+					          center: new google.maps.LatLng(56,-140),
+					          zoom:4,
+					          mapTypeId: google.maps.MapTypeId.ROADMAP
+					        }
+					        var map = new google.maps.Map(mapCanvas, mapOptions)
+					      }
+					      google.maps.event.addDomListener(window, 'load', initialize);
+					      google.maps.event.trigger('map-canvas', 'resize');
+					    </script>
+                 		<div id="map-canvas"></div>
 			</article>
 			<article id="sport" class="content">
 				<h2>My allegance goes toward the following</h2>
+					<div class="sports-logo" id="mizzou-logo"><img src="images/mizzou_logo.png" alt="Mizzou Logo"></div>
+					<div class="sports-logo" id="blues-logo"><img src="images/St_Louis_Blues_Logo.png" alt="STL Blues Logo"></div>
+					<div class="sports-logo" id="cardinals-logo"><img src="images/St_Louis_Cardinals_Logo" alt="STL Cardinals Logo"></div>
+					<div class="sports-logo" id="bulls-logo"><img src="images/Chicago_Bulls_logo.png" alt="Chicago Bulls Logo"></div>
 			</article>
 			<article id="music" class="content">
 				<h2>Here's what I'm currently listening to</h2>
